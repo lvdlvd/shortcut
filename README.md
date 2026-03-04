@@ -18,7 +18,7 @@ Shortcut is not yet on the Chrome Web Store. Install it manually in a few steps:
 1. [Download the latest release](../../releases/latest) and unzip it
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable **Developer mode** using the toggle in the top-right corner
-4. Click **Load unpacked** and select the unzipped `shortcut` folder
+4. Click **Load unpacked** and select the unzipped `shortcut-vX.Y.Z` folder
 5. Navigate to YouTube — Shorts will be hidden immediately
 
 To update, replace the folder contents with the new version and click the refresh icon on the extension card in `chrome://extensions/`.
