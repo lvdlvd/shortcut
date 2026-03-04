@@ -1,0 +1,14 @@
+/* Shortcut - CSS fallback rules */
+
+/* Hide Shorts shelf on homepage */
+ytd-reel-shelf-renderer,
+ytd-shorts {
+  display: none !important;
+}
+
+/* Hide Shorts items in grid */
+ytd-grid-video-renderer a[href^="/shorts/"],
+ytd-rich-item-renderer a[href^="/shorts/"],
+ytd-video-renderer a[href^="/shorts/"] {
+  /* Parent hiding is handled by JS; this is a safety net */
+}
